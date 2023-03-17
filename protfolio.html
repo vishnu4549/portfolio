@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="./portfolio.css">
+    <script src="https://kit.fontawesome.com/75e02998eb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Creating menu bar layout and logos-->
+    <header>
+    <a href="#" class="logo">Portfolio</a>
+    <div class="toggle" onclick="toggleMenu();"></div>
+    <ul class="menu">
+        <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+        <li><a href="#about" onclick="toggleMenu();">About</a></li>
+        <li><a href="#education" onclick="toggleMenu();">Education</a></li>
+        <li><a href="#projects" onclick="toggleMenu();">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+    </ul>
+    </header>
+    <!-- Creating banner layout-->
+    <section class="banner" id="home">
+        <div class="textBx">
+            <h2>Hello, I'm <br> <span>Dusakanti Vishnuvardhan Goud</span></h2>
+            <h3>I'm a Full Stack Web Developer</h3>
+            <a href="#about" class="btn">About Me</a>
+        </div>
+    </section>
+    <!-- Creating about me content-->
+    <section class="about" id="about">
+        <div class="heading">
+         <p>Get to Know me</p>
+         <h2>About Me</h2>
+        </div>
+        <div class="content">
+             <div class="w50">
+              <img src="./Mypic.jpg" alt="" class="proPic">
+             </div>
+             <div class="contentBx w50">
+                <h3>Who am i?</h3>
+                <h2>I'm <b>Dusakanti Vishnuvardhan Goud</b>,a Visual UI Designer and Web Developer</h2>
+                <p>Creative and proactive Full Stack Developer with strong problem-solving abilities and a desire to learn and grow. 
+                   Proficient in C, Python, HTML/CSS, JavaScript, and SQL, and adept at developing responsive web applications.
+                   Committed to delivering high-quality work and exceeding client expectations.</p><br>
+                <p>Skilled Full Stack Developer with a Dedication to Delivering High-Quality, 
+                   Responsive Web Applications Using Python, HTML/CSS, JavaScript, and SQL</p>
+                <div class="heading bottom">
+                    <a href="./RESUME (3).pdf" target="_blank" class="btn round">Download CV</a>
+                    <div class="bt">
+                        <b>Name:</b> Dusakanti Vishnuvardhan Goud <br>
+                        <b>Age:</b>21
+                    </div>
+                    <div class="bt">
+                        <b>Email:</b> vishnugoud454349@gmail.com <br>
+                        <b>Location:</b> Madhapur,Hyderabad
+                    </div>
+                </div>
+             </div>
+        </div>
+    </section>
+    <!--Creating Education layout in html-->
+    <section class="education" id="education">
+        <div class="heading Orange">
+            <h2>Education</h2>
+        </div>
+        <div class="content">
+            <div class="educationBX">
+                <i class="fa-sharp fa-solid fa-graduation-cap fa-4x fa"></i>
+                <h3>Jb Institute of Engineering and Technology,Hyderabad</h3>
+                <p>2019-2023</p>
+                <p>BTech,CSE</p>
+                <p>CGPA:7.07</p>
+            </div>
+            <div class="educationBX">
+                <i class="fa-solid fa-school fa-4x fa"></i>
+                <h3>Abhyaas Junior college,Nizampet,Hyd</h3>
+                <p>2017-2019</p>
+                <p>MPC</p>
+                <p>Marks:942</p>
+            </div>
+            <div class="educationBX">
+                <i class="fa-solid fa-school fa-4x fa"></i>
+                <h3>Holy Spirit High School,Shabad,RR</h3>
+                <p>2016-2017</p>
+                <p>SSC</p>
+                <p>GPA:9.0</p>
+            </div>
+        </div>
+    </section>
+    <!-- Creating projects layout in html-->
+    <section class="projects" id="projects">
+        <div class="heading white">
+           <h2>My Projects</h2><br>
+           <p>Academic Projects</p>
+        </div>
+        <div class="content">
+                <a href="https://image-to-sketch.onrender.com/" target="_blank"><div class="projectBx">
+                    <i class="fa-solid fa-money-bill-transfer fa-4x fa"></i>
+                    <h3> Web Application</h3>
+                    <p>Web Application to convert  image to sketch</p>
+                </div></a>
+                <a href="./project.html" target="_blank"><div class="projectBx">
+                    <i class="fa-sharp fa-solid fa-cart-shopping fa-4x fa"></i>
+                    <h3>E-Commerce Website</h3>
+                    <p>Using MERN Stack Application were built</p>
+                </div></a>
+        </div>
+    </section>
+    <!-- creating contact layout in html-->
+    <section class="contact" id="contact">
+        <div class="heading white">
+            <h2>Contact</h2>
+        </div>
+        <div class="content">
+            <div class="contactInfo">
+                <h3>Contact Info</h3>
+                <p>Always available to work in right project and <br>organisation</p>
+                <div class="contactInfoBx">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <Address>Madhapur,<br>500081,<br>Hyderabad,<br>Telangana,India
+                            </Address>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Phone no:</h3>
+                            <p>+919010356909</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa-regular fa-envelope"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Email Address:</h3>
+                             <p>vishnugoud454349@gmail.com</p>
+                        </div>
+                    </div>
+                    <br>
+                    <h3>Social Connect</h3>
+                    <div class="boxSocial">
+                        <div class="icon">
+                            <a href="https://www.facebook.com/vishnuvardhangoud.vishnuvardhangoud" target="_blank">
+                                <i class="fa-brands fa-square-facebook fa"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://twitter.com/vishnugoud4549" target="_blank">
+                                <i class="fa-brands fa-square-twitter fa"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://www.linkedin.com/in/dusakanti-vishnuvardhangoud-550a47209/" target="_blank">
+                                <i class="fa-brands fa-linkedin fa"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://instagram.com/vishnugoud____?igshid=ZDdkNTZiNTM=" target="_blank">
+                                <i class="fa-brands fa-square-instagram fa"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="formBx">
+                <form>
+                    <h3>Message Me</h3>
+                    <input type="text" placeholder="Full name">
+                    <input type="email" placeholder="Email">
+                    <textarea name="" id="" rows="6"  placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send Message" onclick="button()" id="button" name=""/>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Creating footer layout in html-->
+    <footer class="copyRight">
+        <p>&copy; 2023,vishnu4549.com,Allrights  Reserved</p>
+    </footer>
+    <script src="./portfolio.js"></script>
+</body>
+</html>
